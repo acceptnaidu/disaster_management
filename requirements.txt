@@ -4,3 +4,4 @@ uvicorn
 pydantic
 python-dotenv
 a2a-sdk
+gradio
