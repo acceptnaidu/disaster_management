@@ -107,7 +107,7 @@ async def main():
 
     print("Launching Gradio interface...")
     demo.queue().launch(
-        server_name="localhost",
+        server_name="0.0.0.0",
         server_port=10002,
     )
     print("Gradio application has been shut down.")
